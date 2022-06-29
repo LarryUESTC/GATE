@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ## Preparation
 
-Pls see Configs >>>[here](./main.py/) Lines 514-534<<<.
+Pls see Configs >>>[here](./main.py/) Lines 528-544<<<.
 
 | Configs          | Custom key | note   |
 |------|------|------|
