@@ -63,9 +63,9 @@ def my_train(data_feature_list, data_label, graph_list,
             feat2_ori = random.sample([feat2_ori, feat2_ori_N], 1)[0]
             graph2_ori = random.sample([graph2_ori_N, graph2_ori], 1)[0]
 
-        graph1, feat1 = tool_graph.RA(graph1_ori.cpu(), feat1_ori, config['random_aug_feature'] / 10,
+        graph1, feat1 = tool_data.RA(graph1_ori.cpu(), feat1_ori, config['random_aug_feature'] / 10,
                                    config['random_aug_edge'] / 10).add_self_loop()
-        graph2, feat2 = tool_graph.RA(graph2_ori.cpu(), feat2_ori, config['random_aug_feature'] / 10,
+        graph2, feat2 = tool_data.RA(graph2_ori.cpu(), feat2_ori, config['random_aug_feature'] / 10,
                                    config['random_aug_edge'] / 10).add_self_loop()
         graph1 = graph1.to(device)
         graph2 = graph2.to(device)
