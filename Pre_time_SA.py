@@ -92,6 +92,6 @@ data_all_list = np.array({'t': t,
                           'data_graph_list': np.array(A_selected_list).astype(np.float32),
                           },
                          dtype=object)
-np.save(r'your_dir/Ori_' + dataname + '_' + '_SA.npy', data_all_list, allow_pickle=True)
+np.save(r'data/Ori_' + dataname + '_' + '_SA.npy', data_all_list, allow_pickle=True)
 
 print("Done")
