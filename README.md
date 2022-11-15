@@ -35,6 +35,12 @@ other args:
 * `--weight_decay1` weight decay in SSL
 * `--weight_decay2` weight decay in fine-tune stage
 
+Data：
+The pre-processed data are uploaded into Baidu Cloud Drive, and you can also generate your owns (see Pre_time_MA.py and Pre_time_SA.py).
+
+Link：https://pan.baidu.com/s/1r4bLcJn0PM1ThDKZ2IFOVA?pwd=g559 
+code：g559 
+
 ## Testing
 
 * Classification Task ( Default dataset is ABIDE ) 
