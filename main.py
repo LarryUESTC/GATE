@@ -205,8 +205,8 @@ def my_train(data_feature_list, data_label, graph_list,
                         precision_list_FT.append(precision_FT)
                         recall_list_FT.append(recall_FT)
                         f1_list_FT.append(f1_FT)
-                        string_FT = Fore.BLUE + "accs: {:.3f},auc: {:.3f},pre: {:.3f},recall: {:.3f},f1: {:.3f}".format(
-                            accs_FT, auc_FT, precision_FT, recall_FT, f1_FT)
+                        string_FT = Fore.BLUE + "Epoch: {} accs: {:.3f},auc: {:.3f},pre: {:.3f},recall: {:.3f},f1: {:.3f}".format(
+                            epoch_FT, accs_FT, auc_FT, precision_FT, recall_FT, f1_FT)
                         print(string_FT)
                         # writer.write({'epoch': config['epoch_all1'] + epoch_FT, "fold": fold_num, "seed": args.seed,
                         #               "alpha": config['alpha'],
